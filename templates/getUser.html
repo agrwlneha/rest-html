@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Backend coding challenge</title>
+</head>
+<body>
+	<h2> The users matching with your query are: </h2>
+	{% for item in value %}
+	{{ item.id }}
+	{{item.first_name}}
+	{{item.last_name}}
+	{% endfor %} 
+	<h2><a href = "\">go back to home page</a></h2>
+</body>
+</html>

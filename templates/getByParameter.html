@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Backend coding challenge</title>
+</head>
+<body>
+	<h1> Create a new user in the database </h1>
+	<form action="/getByParameter" method="POST">
+		<h2> User Information</h2>
+		Return records from this page <br>
+		<input type="number" name="page"/> <br>
+		Upper limit on the number of records to be returned <br>
+		<input type="number" name="limit"/> <br> 
+		Should contain this string in the first or last name <br>
+		<input type="text" name="name"> <br>
+		Order BY <br>
+		<input type="text" name="sort"> <br>
+		<input type="submit" value="getByParameter" />
+	</form>
+	<br>
+	<h2><a href = "\">go back to home page</a></h2>
+</body>
+</html>
